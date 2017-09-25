@@ -1,0 +1,23 @@
+
+.main-nav {
+	display: flex;
+}
+
+.mobile-nav {
+	display: none;
+}
+
+.mobile-btn-wrapper {
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	.mobile-btn-wrapper {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.main-nav {
+		display: none;
+	}
+}
